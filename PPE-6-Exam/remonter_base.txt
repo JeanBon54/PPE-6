@@ -1,0 +1,3 @@
+commande cmd pour mettre la base a jour en doctrine
+
+php vendor/doctrine/orm/bin/doctrine orm:schema-tool:update --force --dump-sql
